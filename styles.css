@@ -1,0 +1,51 @@
+#wrapper{
+    background white;
+    background: -webkit-radial-gradient(white, maroon); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(white, maroon); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(white, maroon); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(white, maroon); /* Standard syntax */ 
+
+    width:1000px;
+    padding: 20px;
+}
+.header{
+    background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, grey, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, grey, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, grey, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, grey, white); /* Standard syntax */
+
+    width: 1040px;
+    height: 50px;
+}
+.header_name{
+    float: left;
+    margin-left: 20px;
+    display: inline;
+    font-size: 40px;
+    font-family: Courier New; 
+}
+.header_desc{
+    margin-top:15px;
+    float: right;
+    display: inline;
+    font-size: 20px;
+    font-family: Courier New; 
+}
+.photo_block{
+    background-color: silver;
+    display: inline-block;
+    width: 47%;
+    height: 311px;
+    padding: 5px;
+}
+.about_block{
+    background-color: silver;
+    display: inline-block;
+    width: 47%;
+    height: 311px;
+    vertical-align: top;
+    padding:5px;
+    margin-left: 20px;
+
+}

@@ -1,9 +1,9 @@
 #wrapper{
     background white;
-    background: -webkit-radial-gradient(white, maroon); /* Safari 5.1 to 6.0 */
-    background: -o-radial-gradient(white, maroon); /* For Opera 11.6 to 12.0 */
-    background: -moz-radial-gradient(white, maroon); /* For Firefox 3.6 to 15 */
-    background: radial-gradient(white, maroon); /* Standard syntax */ 
+    /*background: -webkit-radial-gradient(white, LightCoral, maroon); /* Safari 5.1 to 6.0 */
+    /*background: -o-radial-gradient(white, LightCoral,maroon); /* For Opera 11.6 to 12.0 */
+    /*background: -moz-radial-gradient(white, LightCoral, maroon); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(white, LightCoral, maroon); /* Standard syntax */ 
 
     width:1000px;
     padding: 20px;
@@ -40,6 +40,12 @@
     padding: 5px;
 }
 .about_block{
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,white, grey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, white, grey); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, white, grey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, white, grey); /* Standard syntax */
+
     background-color: silver;
     display: inline-block;
     width: 47%;
@@ -48,4 +54,27 @@
     padding:5px;
     margin-left: 20px;
 
+}
+.block_title{
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(grey, silver, grey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(grey, silver, grey); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(grey, silver, grey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(grey, silver, grey); /* Standard syntax */
+
+    height:30px;
+    font-size: 20px;
+    line-height: 30px;
+    text-indent: 15px;
+    font-family: Courier New;
+    vertical-align: top;
+    margin: -5px;
+    color: white;
+    
+}
+.block_content{
+    display: block;
+    font-size: 17px;
+    font-family: Courier New;
+    margin: 10px 5px 5px 5px;
 }

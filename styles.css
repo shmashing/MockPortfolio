@@ -72,9 +72,58 @@
     color: white;
     
 }
+
+.subtitle{
+    margin-top: 0px;
+    font-size: 17px;
+}
 .block_content{
     display: block;
     font-size: 17px;
     font-family: Courier New;
     margin: 10px 5px 5px 5px;
+}
+
+.portfolio{
+    font-size: 13px;
+    height:30%
+}
+.content_block{
+    background: white;
+    background: linear-gradient(to right, white, grey); /* Standard syntax */
+    height: 600px;
+    width: 300px;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 20px;
+    vertical-align: top;
+    
+}
+.middle{
+    margin-left:23px;
+    margin-right:23px;
+
+}
+.block_img{
+    margin-top: 10px;
+}
+
+.tech_img{
+    display:inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.portfolio_button{
+    display: flex;
+    justify-content: center;
+}
+input {
+    margin: 10px auto;
+
+    background-color: DarkGreen;
+    color: white;
+
+    border-radius:12px;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
